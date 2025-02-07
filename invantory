@@ -1,5 +1,5 @@
 class Inventory:
-    def init(self):
+    def __init__(self):
         self.items = {}  # Dictionary to store items and their quantities
 
     def add(self, name, qty):
